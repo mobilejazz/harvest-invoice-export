@@ -17,5 +17,5 @@
     "url" : "https://github.com/mobilejazz/harvest-invoice-export.git"
   },
   "subdomain": "mobilejazz",
-  "license": "Apache 2"
+  "license": "Apache-2.0"
 }
