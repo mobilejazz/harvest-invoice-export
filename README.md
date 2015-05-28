@@ -9,7 +9,7 @@ Install like this:
 Use like this:
 
 	mkdir invoices
-    harvest-invoice-export -u someone@mobilejazz.com -p s00p3rs3cr31 -o invoices -f 20150101 -t 20150331
+    harvest-invoice-export -u someone@mobilejazz.com -p s00p3rs3cr31 -s mobilejazz -o invoices -f 20150101 -t 20150331
 
 Full usage instructions:
 ```
