@@ -1,5 +1,4 @@
-Harvest invoice exporter
---
+# Harvest invoice exporter
 
 CLI to export invoices into PDF format for long-term storage purposes. Also generates a summary of exported invoices in CSV format.
 
