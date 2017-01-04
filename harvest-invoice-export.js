@@ -32,7 +32,7 @@ var Harvest = require('harvest'),
 var sanitize = require("sanitize-filename");
 
 getInvoices(function(err, invoices) {
-    if (err) throw new Error(err);
+    if (err) throw JSON.stringify(err);
     printInvoiceSummary(invoices);
     downloadInvoicesToDisk(invoices);
 });
@@ -58,7 +58,6 @@ function printInvoiceSummary(invoices) {
 	// transform
 	var json = invoices.reverse().map(function (inv) {
 		var invoice = inv.invoices; // weird, I dont know why they do that
-		console.log(invoice);
 
 		return {
 			"Invoice Date": invoice.issued_at,
