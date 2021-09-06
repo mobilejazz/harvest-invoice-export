@@ -4,17 +4,20 @@
   "description": "Exports invoices into PDF format and makes a CSV summary",
   "author": "Jordi Gimenez <jordi@mobilejazz.com>",
   "contributors": [],
-  "main": "lib/foo.js",
-  "bin": { "harvest-invoice-export" : "./harvest-invoice-export.js" },
-  "dependencies": {
-    "sanitize-filename": "1.3.0",
-    "harvest": "0.1.0",
-    "commander": "2.8.1",
-    "json2csv": "2.3.0"
+  "bin": {
+    "harvest-invoice-export": "./harvest-invoice-export.js"
   },
-  "repository" : { 
-    "type" : "git",
-    "url" : "https://github.com/mobilejazz/harvest-invoice-export.git"
+  "dependencies": {
+    "assert": "^2.0.0",
+    "commander": "^8.1.0",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "json2csv": "2.3.0",
+    "sanitize-filename": "^1.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mobilejazz/harvest-invoice-export.git"
   },
   "subdomain": "mobilejazz",
   "license": "Apache-2.0"
